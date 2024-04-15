@@ -9,9 +9,8 @@
 		<!-- Link to base CSS file -->
     <link rel="stylesheet"   type="text/css" href="css/base.css">
     <!-- Link to about page specific CSS file -->
-    
-
-<script>
+    <link rel="stylesheet" href="css/about.css">
+    <script>
       // Check if browser supports CSS Variables
       if (!window.CSS || !window.CSS.supports || !window.CSS.supports('color', 'var(--test-color)')) {
           // Alert the user if CSS Variables are not supported
@@ -21,36 +20,45 @@
           document.documentElement.classList.add("js");
       }
   </script>
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
 </head>
 <body>
     <div class="frame">
         <h1 class="frame__title">Alternate Column Scroll</h1>
         <nav class="frame__links">
-            <a href="#">Home</a>
+            <a href="/">Home</a>
             <a href="about.html">About</a>
             <a href="gallery.html">Gallery</a>
   <a href="journal.html">Journal</a>
         </nav>
         <button class="unbutton button-menu" aria-label="Open the menu"><span></span></button>
     </div>
-    <h1> about page</h1>
-    <div class="about">
-        <div class="">
-          <div class="">ABOUT HALLE AGENCY</div>
-        
-      Established in 2013 in New York City, Halle Agency is one of the leading boutique agencies representing a diverse pool of models and talent for print and commercial advertising. Our unique niche, housing both a fashion and a lifestyle division in one agency, is what sets Bella apart in a highly competitive industry.
-      
-      In 2005, Bella launched its successful 40+ WOMEN division (now Bella CLASSIC), which quickly became the most sought-after resource for advertisers looking to target that demographic. In 2017, with an increased demand as well as a growing bicoastal talent pool, Bella Los Angeles opened its doors. We have since expanded our portfolio to represent on-camera, commercial talent (Bella TALENT) and youth (Bella YOUTH).
-      
-      With the rise of social media marketing, Bella has stood at the forefront of recognizing and adapting to the demands of advertisers and marketers. Bella INFLUENCERS was established to provide our clients with talent who have a strong social media presence.
-      
-      Our models and talent have appeared in numerous marketing campaigns including Uniqlo, Target, Levi's, Polo Jeans, Coca-Cola, Pantene, Miller Lite, Neutrogena, Delta Airlines and Tommy Hilfiger, to name a few.
-      
-      In 2015, Bella Agency was named one of the top 10 agencies in New York.
-      
-      With over 50 years of combined experience, Bella's team of agents has developed some of the most promising new models and talent in the business. Through dedication and creativity, we pride ourselves on providing a personalized, hands-on experience.
-      
+   
+  <!-- CONTENT HERE -->
+    <div class="container">
+        <h1>Welcome to My World!</h1>
+        <div class="intro">
+            <p>Hey there! I'm <strong>Nave</strong>, but you can call me <strong>Na-ve</strong> if you'd like. I'm thrilled to welcome you to my corner of the internet, where I'm all about sharing stories, connecting with amazing people like you, and spreading positive vibes.</p>
         </div>
-      </div>
+        <div class="about-me">
+            <h2>A Little Bit About Me</h2>
+            <p>I'm just a person with a passion for life and a love for all things creative. Originally from <strong>Kawempe</strong>, I've always had a knack for <strong>artsy and creative stuff</strong>, and I'm constantly exploring new ways to express myself.</p>
+        </div>
+        <div class="why-here">
+            <h2>Why I'm Here</h2>
+            <p>So, why did I create this website? Well, it all boils down to one thing: connection. I believe that sharing our experiences, passions, and perspectives can spark meaningful conversations and foster a sense of community. Whether it's through storytelling, sharing tips and tricks, or simply having a good laugh together, I'm here to create a space where we can all feel seen, heard, and valued.</p>
+        </div>
+        <div class="what-youll-find">
+            <h2>What You'll Find Here</h2>
+            <p>On this site, you'll find a little bit of everything that makes me who I am. From <strong>my interests or hobbies</strong> to <strong> silly cook stuff</strong>, I'm not afraid to dive into the things that light me up and share them with the world. </p>
+        </div>
+        <div class="contact-info">
+            <h2>Let's Connect!</h2>
+<p>I'd love to hear from you! Whether you have a question, a suggestion, or just want to say hi, feel free to <strong>via X or email or contact form.</strong> </p>
+        </div>
+        <dotlottie-player src="https://lottie.host/f859617b-b610-4732-b9bf-83e167fbccb4/awIu6C9i10.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+    </div>
+
+</div>
 </body>
 </html>
