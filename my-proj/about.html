@@ -24,41 +24,112 @@
 </head>
 <body>
     <div class="frame">
-        <h1 class="frame__title">Alternate Column Scroll</h1>
+        <h1 class="frame__title">Column Scroll</h1>
         <nav class="frame__links">
             <a href="/">Home</a>
             <a href="about.html">About</a>
             <a href="gallery.html">Gallery</a>
-  <a href="journal.html">Journal</a>
+            <a href="https://springlife.webflow.io/">Journal</a>
         </nav>
         <button class="unbutton button-menu" aria-label="Open the menu"><span></span></button>
     </div>
    
-  <!-- CONTENT HERE -->
-    <div class="container">
-        <h1>Welcome to My World!</h1>
-        <div class="intro">
-            <p>Hey there! I'm <strong>Nave</strong>, but you can call me <strong>Na-ve</strong> if you'd like. I'm thrilled to welcome you to my corner of the internet, where I'm all about sharing stories, connecting with amazing people like you, and spreading positive vibes.</p>
+                         <!-- CONTENT HERE -->
+  <div class="bgimg-1">
+     <!-- music player content -->
+     <div class="music-player-container">
+        <div class="toggle-player">
+          <ion-icon name="remove-outline"></ion-icon>
         </div>
-        <div class="about-me">
-            <h2>A Little Bit About Me</h2>
-            <p>I'm just a person with a passion for life and a love for all things creative. Originally from <strong>Kawempe</strong>, I've always had a knack for <strong>artsy and creative stuff</strong>, and I'm constantly exploring new ways to express myself.</p>
+        <div class="avatar">
+         <img src="./fashion-little-boy.jpg" alt="eyes-lady"/>
         </div>
-        <div class="why-here">
-            <h2>Why I'm Here</h2>
-            <p>So, why did I create this website? Well, it all boils down to one thing: connection. I believe that sharing our experiences, passions, and perspectives can spark meaningful conversations and foster a sense of community. Whether it's through storytelling, sharing tips and tricks, or simply having a good laugh together, I'm here to create a space where we can all feel seen, heard, and valued.</p>
+  
+        <div class="player">
+          <div class="sound-bars-lottie">
+            <div class="sound-bars">   
+      <!--The soundbar goes here animated by body movin plugin-->
+            </div>
+      </div>
+          <div class="track-info">
+            <div class="track-name">Track Name</div>
+            <div class="track-artist">Track Artist</div>
+          </div>
+          <div class="track-nav">
+            <div class="prev-track">
+              <ion-icon name="play-back-sharp"></ion-icon>
+            </div>
+            <div class="playpause-track">
+              <ion-icon name="play-sharp"></ion-icon>
+            </div>
+  <div class="next-track">
+      <ion-icon name="play-forward-sharp"></ion-icon> 
+  </div>
+          </div>
         </div>
-        <div class="what-youll-find">
-            <h2>What You'll Find Here</h2>
-            <p>On this site, you'll find a little bit of everything that makes me who I am. From <strong>my interests or hobbies</strong> to <strong> silly cook stuff</strong>, I'm not afraid to dive into the things that light me up and share them with the world. </p>
-        </div>
-        <div class="contact-info">
-            <h2>Let's Connect!</h2>
-<p>I'd love to hear from you! Whether you have a question, a suggestion, or just want to say hi, feel free to <strong>via X or email or contact form.</strong> </p>
-        </div>
-        <dotlottie-player src="https://lottie.host/f859617b-b610-4732-b9bf-83e167fbccb4/awIu6C9i10.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+      </div>
+       <!-- parallax scroll with css only -->
+    <div class="caption">
+      <span class="border">SCROLL DOWN</span>
+    </div>
+  </div>
+  
+  <div style="color: #0a0606;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">About me!</h3>
+    <p>
+        I'm just a person with a passion for life and a love for all things creative.  I've always had a knack for <strong>artsy and creative stuff</strong>, 
+        and I'm constantly exploring new ways to express myself.
+    </p>
+ 
+    <div class="why-here">
+        <h2>Why I'm Here</h2>
+        <p>
+           FOMO! So, why did I build this website from scratch? Well, it all boils down to one thing: connection. I believe that sharing our experiences, passions, and perspectives can spark meaningful conversations. Whether it's through storytelling, sharing tips and tricks, or simply having a good laugh together, 
+            I'm here to create a space where I can feel seen and heard.I deleted most of my social media sites for alittle more than two years.But i guess i had FOMO so here i am.
+        </p>
     </div>
 
-</div>
+  </div>
+  
+  <div class="bgimg-2">
+    <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">STILL HERE?</span>
+    </div>
+  </div>
+  
+  <div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        
+            <h2>What You'll Find Here</h2>
+            <p> You'll find a little bit of everything that makes me who I am. From <strong>my interests or hobbies</strong> to <strong>creative stuff</strong> </p>
+        
+    </div>
+  </div>
+  
+  <div class="bgimg-3">
+    <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+    </div>
+  </div>
+  
+  <div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <h2>Let's Connect!</h2>
+        <p>I'd love to hear from you! Whether you have a question, a suggestion, or just want to say hi, feel free to get to me  <strong>via X or email.</strong> </p>
+    </div>
+  </div>
+  
+  <div class="bgimg-1">
+    <div class="caption">
+      <span class="border">COOL!</span>
+    </div>
+  </div>
+   <!-- JS for music player -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/main.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
 </body>
 </html>
